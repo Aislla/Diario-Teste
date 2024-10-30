@@ -1,4 +1,4 @@
-package main.java.com.diario_girls.diario.entities.enums;
+package com.diario_girls.diario.entities.enums;
 
 public enum Emoji {
     

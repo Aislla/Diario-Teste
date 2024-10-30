@@ -1,11 +1,12 @@
-package src.main.java.com.diario_girls.diario.services;
+package com.diario_girls.diario.services;
 
-import src.main.java.com.diario_girls.diario.entities.Usuario;
-import src.main.java.com.diario_girls.diario.repositories.UsuarioRepository;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.diario_girls.diario.entities.Usuario;
+import com.diario_girls.diario.repositories.UsuarioRepository;
 
 @Service
 

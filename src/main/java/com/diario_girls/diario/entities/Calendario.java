@@ -1,5 +1,10 @@
-package main.java.com.diario_girls.diario.entities;
-import javax.persistence.*;
+package com.diario_girls.diario.entities;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "calendario")

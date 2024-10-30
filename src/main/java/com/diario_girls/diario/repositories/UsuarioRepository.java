@@ -1,7 +1,8 @@
-package src.main.java.com.diario_girls.diario.repositories;
+package com.diario_girls.diario.repositories;
 
-import src.main.java.com.diario_girls.diario.entities.Usuario;
-//import com.diario_girls.diario.entities.Usuario;
+import com.diario_girls.diario.entities.Usuario;
+import com.diario_girls.diario.entities.Usuario;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

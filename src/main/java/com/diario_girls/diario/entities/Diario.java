@@ -1,7 +1,14 @@
-package main.java.com.diario_girls.diario.entities;
+package com.diario_girls.diario.entities;
 
-import javax.persistence.*;
 import java.time.LocalDate;
+
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 @Table(name = "diario")

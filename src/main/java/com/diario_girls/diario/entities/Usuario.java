@@ -1,12 +1,19 @@
-package main.java.com.diario_girls.diario.entities;
+package com.diario_girls.diario.entities;
 
-import javax.persistence.*;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "usuario")
+@Table(name = "usuarios")
 public class Usuario {
-
+	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
